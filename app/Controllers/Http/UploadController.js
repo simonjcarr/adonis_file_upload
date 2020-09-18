@@ -21,7 +21,7 @@ class UploadController {
     })
 
     if (!upload_file.moved()) {
-      console.log(file.error())
+      console.log(upload_file.error())
       return view.render('upload_files', {status: 'Error: ' + upload_file.error()})
     }
 
