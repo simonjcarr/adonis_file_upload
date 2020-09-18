@@ -7,12 +7,6 @@ class UploadController {
 
   async upload({ request, view }) {
     const upload_file = request.file("upload_file", {
-      types: [
-        "zip",
-        "x-7z-compressed",
-        "csv",
-        "vnd.openxmlformats-officedocument.wordprocessingml.document",
-      ],
       size: "100mb",
     });
 
