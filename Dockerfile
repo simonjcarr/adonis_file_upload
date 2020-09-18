@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 3333
 
-CMD [ "NPM", "START" ]
+CMD [ "npm", "start" ]
