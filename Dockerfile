@@ -2,7 +2,7 @@ FROM node:12
 
 WORKDIR . /app
 
-VOLUME [ "/public/uploads" ]
+VOLUME [ "/app/public/uploads" ]
 
 COPY package*.json ./
 
